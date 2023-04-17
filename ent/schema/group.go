@@ -2,7 +2,6 @@ package schema
 
 import (
 	"regexp"
-
 	"entgo.io/ent"
 	"entgo.io/ent/schema/field"
 )
@@ -25,3 +24,4 @@ func (Group) Fields() []ent.Field {
 func (Group) Edges() []ent.Edge {
 	return nil
 }
+
